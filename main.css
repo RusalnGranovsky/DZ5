@@ -1,5 +1,48 @@
-p {color: orange;}
-#main p{
-    font-size: small;
+h1 {
+    text-align: center;
+}
+
+p {
+    color: orange;
+}
+
+#main  {
     color: green;
 }
+.color-red {
+    color:  red;
+}
+.text-big.color-yellow {
+    text-align: -20px;
+    color: yellow;
+}
+p b {
+    text-align: right;
+    color: #008;
+}
+.color-blueviolet{
+    color: blueviolet;
+}
+#main2 span{
+    color: blue;
+}
+#main3 p b, #main3 p + i {
+    color: red;
+}
+div.Text-smoll.color-darkgreen{
+    text-align: left;
+    color: darkgreen;
+}
+div p + a {
+    color: green;
+    background: red; 
+  }
+  div.block-menu-therm {
+    background: #306589; 
+    color: #acdb4c; 
+    padding: 5px 
+  }
+   
+   div[class|="block"] a {
+    color: #fff; 
+   }
